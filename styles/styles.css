@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 12px 24px;
     border-bottom: 2px solid #ccc;
   }
 
@@ -19,7 +19,7 @@ body {
 
   header h1 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 30px;
     color: #2e7d32;
   }
 
@@ -47,4 +47,39 @@ body {
   .back-to-top {
     display: block;
     margin-top: 0.5rem;
+  }
+
+  main {
+    padding: 2rem;
+  }
+
+  form {
+    max-width: 600px;
+    margin-top: 1rem;
+  }
+
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #388e3c;
   }
