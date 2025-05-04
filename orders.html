@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedidos | Vivero Natural</title>
+  <link rel="stylesheet" href="orders.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo de la empresa" />
+    <h1>GreenHouse & Co.</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="orders.html">Orders</a>
+  </nav>
+
+  <main>
+    <h2>Orders</h2>
+    <p>Solicita aquí tu decoración floral personalizada. Rellena el formulario con tus preferencias y te contactaremos a la mayor brevedad posible.</p>
+
+    <form action="#" method="post">
+      <label for="empresa">Nombre de la empresa solicitante:</label>
+      <input type="text" id="empresa" name="empresa" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="tipo">Tipo de pedido:</label>
+      <select id="tipo" name="tipo" required>
+        <option value="">--Selecciona una opción--</option>
+        <option value="jardin">Jardín para eventos</option>
+        <option value="decoracion-iglesia">Decoración de iglesias</option>
+        <option value="ramos">Ramos personalizados</option>
+        <option value="oficinas">Decoración de oficinas</option>
+      </select>
+
+      <label for="color">Color preferido:</label>
+      <input type="color" id="color" name="color">
+
+      <label for="presupuesto">Presupuesto estimado (€):</label>
+      <input type="number" id="presupuesto" name="presupuesto" min="0" required>
+
+      <label for="fecha">Fecha preferida de entrega:</label>
+      <input type="date" id="fecha" name="fecha">
+
+      <label for="observaciones">Observaciones:</label>
+      <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+
+      <div class="form-buttons">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>Contact: info@greenhouse&co.com | Tel: +34 695 75 83 40</p>
+    <a class="back-to-top" href="#top">Back to Top</a>
+  </footer>
+
+</body>
+</html>
