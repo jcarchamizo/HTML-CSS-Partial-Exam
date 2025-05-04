@@ -81,5 +81,40 @@ body {
   }
 
   button:hover {
-    background-color: #388e3c;
+    ba
+    ckground-color: #388e3c;
   }
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    main {
+      padding: 12px;
+    }
+  
+    form input,
+    form textarea,
+    form select {
+      width: 100%;
+    }
+  
+    .form-buttons {
+      flex-direction: column;
+    }
+  
+    section#nuestros-proyectos div {
+      flex-direction: column;
+    }
+  
+    section#nuestros-proyectos img {
+      margin-bottom: 1rem;
+      max-width: 100%;
+    }
+  }    
