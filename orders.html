@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pedidos | Vivero Natural</title>
-  <link rel="stylesheet" href="orders.css">
+  <link rel="stylesheet" href="styles/orders.css">
   <style>
     
   </style>
@@ -24,35 +24,33 @@
 
   <main>
     <h2>Orders</h2>
-    <p>Solicita aquí tu decoración floral personalizada. Rellena el formulario con tus preferencias y te contactaremos a la mayor brevedad posible.</p>
+    <p>Request your personalized floral arrangement here. Fill out the form with your preferences and we will contact you as soon as possible.</p>
 
     <form action="#" method="post">
-      <label for="empresa">Nombre de la empresa solicitante:</label>
+      <label for="empresa">Name of the applicant company:</label>
       <input type="text" id="empresa" name="empresa" required>
 
-      <label for="email">Correo electrónico:</label>
+      <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
 
-      <label for="tipo">Tipo de pedido:</label>
+      <label for="tipo">Order type:</label>
       <select id="tipo" name="tipo" required>
-        <option value="">--Selecciona una opción--</option>
-        <option value="jardin">Jardín para eventos</option>
-        <option value="decoracion-iglesia">Decoración de iglesias</option>
-        <option value="ramos">Ramos personalizados</option>
-        <option value="oficinas">Decoración de oficinas</option>
+        <option value="">--Select an option--</option>
+        <option value="jardin">Floral entrances</option>
+        <option value="decoracion-iglesia">Various floral decoration</option>
       </select>
 
-      <label for="color">Color preferido:</label>
+      <label for="color">Favorite color:</label>
       <input type="color" id="color" name="color">
 
-      <label for="presupuesto">Presupuesto estimado (€):</label>
-      <input type="number" id="presupuesto" name="presupuesto" min="0" required>
+      <label for="budget">Estimated budget (€):</label>
+      <input type="number" id="budget" name="budget" min="0" required>
 
-      <label for="fecha">Fecha preferida de entrega:</label>
-      <input type="date" id="fecha" name="fecha">
+      <label for="date">Preferred delivery date:</label>
+      <input type="date" id="date" name="date">
 
-      <label for="observaciones">Observaciones:</label>
-      <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
 
       <div class="form-buttons">
         <button type="submit">Enviar</button>
